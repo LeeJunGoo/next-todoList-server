@@ -12,7 +12,7 @@ server.use(middlewares);
 
 server.use(
   jsonServer.rewriter({
-    '/api/*': '/$1', // /api/posts → /posts로 재작성(mapping)
+    '/api/*': '/$1',
     '/blog/:resource/:id/show': '/:resource/:id',
   })
 );
