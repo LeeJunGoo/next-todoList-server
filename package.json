@@ -4,5 +4,12 @@
   "main": "index.js",
   "repository": "https://github.com/LeeJunGoo/next-todoList-server.git",
   "author": "LeeJnuGoo <leejungoo1396@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "doct": "^1.0.0",
+    "json-server": "^0.16.0"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json --port 5000"
+  }
 }
