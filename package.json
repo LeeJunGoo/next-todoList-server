@@ -1,0 +1,8 @@
+{
+  "name": "next-todoList-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeeJunGoo/next-todoList-server.git",
+  "author": "LeeJnuGoo <leejungoo1396@gmail.com>",
+  "license": "MIT"
+}
