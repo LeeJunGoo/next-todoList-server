@@ -6,10 +6,10 @@
   "author": "LeeJnuGoo <leejungoo1396@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "doct": "^1.0.0",
+    "dotenv": "^16.4.7",
     "json-server": "^0.16.0"
   },
   "scripts": {
-    "start": "json-server --watch db.json --port 5000"
+    "start": "node api/server.js"
   }
 }
